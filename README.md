@@ -2,6 +2,8 @@
 
 Color Memory Engine is a self-hostable open-source engine for building daily visual color-memory games. It provides deterministic round generation, perceptual CIEDE2000 scoring, licensed content packs, shareable challenges, server-verified results, and an optional Redis leaderboard.
 
+Reference deployment: <https://color-memory-engine.vercel.app>
+
 This is a new, independent project with a clean Git history. It does not include character assets, third-party character data, production credentials, or private product documents from the private source project.
 
 ## Why this is more than a color-picker demo
@@ -14,7 +16,7 @@ This is a new, independent project with a clean Git history. It does not include
 
 ## Run it locally
 
-Requirements: Node.js 22 or newer.
+Requirements: Node.js 22.
 
 ```bash
 git clone https://github.com/Wayne-enyaW/color-memory-engine.git

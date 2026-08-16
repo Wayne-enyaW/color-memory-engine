@@ -5,9 +5,10 @@ This file separates current facts from application targets. The targets below ar
 ## Current verified facts — 2026-08-16
 
 - Project version: `0.1.0` in the source tree.
-- Automated tests: 24 passing tests across color math, deterministic rounds, challenges, content validation, and server verification.
+- Automated tests: 25 passing tests across color math, deterministic rounds, challenges, content validation, and server verification.
 - Distributed assets: 201 checksummed records; 195 are byte-matched upstream flags and 6 are original geometric SVGs.
 - Production build: Next.js 16.2.6 build passed locally on Node.js 22.22.2.
+- Reference deployment: <https://color-memory-engine.vercel.app> is live without Redis-backed persistence.
 - External contributors: 0.
 - Verified third-party deployments or packs: 0.
 - Non-maintainer issues or pull requests: 0.
