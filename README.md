@@ -11,6 +11,16 @@ Reference deployment: <https://color-memory-engine.vercel.app>
 
 This is a new, independent project with a clean Git history. It does not include character assets, third-party character data, production credentials, or private product documents from the private source project.
 
+## Project status
+
+v0.1.0 is the first public release. The application and reference deployment are usable today, while external contributors and third-party deployments have not yet been verified. The repository is seeking its first independent users and contributors through the scoped work in [GitHub Issues](https://github.com/Wayne-enyaW/color-memory-engine/issues).
+
+## Who this is for
+
+- Developers who want a daily visual color-memory game without reimplementing deterministic round selection and perceptual scoring.
+- Content authors who need a documented boundary for locally owned or licensed visual packs.
+- Maintainers who want self-hosted gameplay without a required database, with optional server-verified challenges and rankings.
+
 ## Why this is more than a color-picker demo
 
 - Daily rounds are derived from `gameId + UTC date + namespace`, so server and client agree on the sequence.
