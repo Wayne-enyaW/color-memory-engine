@@ -1,0 +1,30 @@
+name: Content pack proposal
+description: Propose a licensed pack or request a provenance review.
+title: "[Pack]: "
+labels: [content-pack]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License declaration
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Gameplay value and target definition
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Provenance evidence
+      description: Link an exact revision or release and describe any jurisdictional or trademark restrictions.
+    validations:
+      required: true
