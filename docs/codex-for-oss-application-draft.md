@@ -7,6 +7,18 @@ Official pages:
 - Program: <https://developers.openai.com/community/codex-for-oss>
 - Application: <https://openai.com/form/codex-for-oss/>
 
+## Fact-checked project fields
+
+- Project: Color Memory Engine
+- Public repository: <https://github.com/Wayne-enyaW/color-memory-engine>
+- Reference deployment: <https://color-memory-engine.vercel.app>
+- First release: <https://github.com/Wayne-enyaW/color-memory-engine/releases/tag/v0.1.0>
+- GitHub maintainer: `Wayne-enyaW`
+- Maintainer role: Primary maintainer
+- Public since: 2026-08-16
+
+These fields are verified, but the application is still not ready: the repository has not reached the public-maintenance, human-contributor, or third-party-adoption gates in `docs/codex-for-oss-evidence.md`.
+
 ## Current form fields
 
 The live official form asked for the following on 2026-08-16:

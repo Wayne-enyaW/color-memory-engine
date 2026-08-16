@@ -1,5 +1,10 @@
 # Color Memory Engine
 
+[![CI](https://github.com/Wayne-enyaW/color-memory-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Wayne-enyaW/color-memory-engine/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Wayne-enyaW/color-memory-engine/actions/workflows/codeql.yml/badge.svg)](https://github.com/Wayne-enyaW/color-memory-engine/actions/workflows/codeql.yml)
+[![Secret scan](https://github.com/Wayne-enyaW/color-memory-engine/actions/workflows/secret-scan.yml/badge.svg)](https://github.com/Wayne-enyaW/color-memory-engine/actions/workflows/secret-scan.yml)
+[![MIT license](https://img.shields.io/badge/license-MIT-151515.svg)](LICENSE)
+
 Color Memory Engine is a self-hostable open-source engine for building daily visual color-memory games. It provides deterministic round generation, perceptual CIEDE2000 scoring, licensed content packs, shareable challenges, server-verified results, and an optional Redis leaderboard.
 
 Reference deployment: <https://color-memory-engine.vercel.app>
