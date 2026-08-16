@@ -8,10 +8,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: "Color Memory Engine", template: "%s · Color Memory Engine" },
   description: "A self-hostable engine for deterministic visual color-memory games.",
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Color Memory Engine",
     description: "Deterministic rounds, perceptual scoring, and licensed content packs.",
     type: "website",
+    url: "/",
   },
 };
 
