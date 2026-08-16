@@ -1,11 +1,37 @@
 # Codex for Open Source application draft
 
-Status: **not ready to submit**. Last official-form review: 2026-08-16. The repository must first satisfy `docs/codex-for-oss-evidence.md` or the maintainer must explicitly decide to apply earlier with the current facts.
+Status: **ready for maintainer fact-check and near-term submission**. Last official-form review: 2026-08-16. This is an early-stage application based on the project's specific ecosystem value and public engineering evidence, not on broad adoption.
 
 Official pages:
 
 - Program: <https://developers.openai.com/community/codex-for-oss>
 - Application: <https://openai.com/form/codex-for-oss/>
+
+## Fact-checked project fields
+
+- Project: Color Memory Engine
+- Public repository: <https://github.com/Wayne-enyaW/color-memory-engine>
+- Reference deployment: <https://color-memory-engine.vercel.app>
+- First release: <https://github.com/Wayne-enyaW/color-memory-engine/releases/tag/v0.1.0>
+- GitHub maintainer: `Wayne-enyaW`
+- Maintainer role: Primary maintainer
+- Public since: 2026-08-16
+
+These fields are verified. The project has one public release and no verified external contributors or third-party deployments yet. The application must disclose that stage rather than imply adoption.
+
+## Submission strategy
+
+The official program says core maintainers should apply and explicitly invites applications from projects that do not fully fit the standard criteria but play an important ecosystem role. The live form asks for usage metrics **or** an explanation of ecosystem importance and reviews applications on a rolling basis.
+
+This application therefore uses the ecosystem-importance path:
+
+- explain the reusable problem the project solves;
+- point to the release, live demo, tests, provenance, and security controls;
+- state that this is the first public release;
+- make no claim of broad adoption, external contributors, or third-party deployments;
+- describe concrete public maintainer work that API credits would support.
+
+The earlier six-week adoption gate remains useful as a confidence target for a later update or reapplication, but it is not an OpenAI requirement and no longer blocks an initial submission.
 
 ## Current form fields
 
@@ -45,39 +71,41 @@ Color Memory Engine is an MIT-licensed, self-hostable application for creating v
 
 **Primary maintainer** — use only if the public repository ownership and ongoing release/review activity still support this statement at submission time.
 
-### Why does this repository qualify? — 455/500 characters
+### Interests
 
-Color Memory Engine is an MIT-licensed, self-hostable engine for visual color-memory games. It provides deterministic daily rounds, CIEDE2000 scoring tested against published reference pairs, licensed and checksummed content packs, shareable challenges, and optional server-verified Redis rankings. It gives developers a rights-conscious base for building a game without coupling gameplay to a specific brand, content catalog, database, or hosted service.
+Select **Codex Security** and **API credits for the project**. Security access is conditional; the repository's public API routes, server-verified results, dependency surface, and content-provenance boundary provide a concrete review scope.
 
-This version states technical and ecosystem value but no adoption. Before submission, replace one sentence—not the facts above—with verified release, contributor, deployment, and maintenance evidence while staying under 500 characters.
+### Why does this repository qualify? — 490/500 characters
 
-### How will you use API credits? — 481/500 characters
+Color Memory Engine is a newly published MIT-licensed engine for self-hosted visual color-memory games. Its ecosystem value is a reusable, rights-conscious reference implementation: deterministic client/server rounds, CIEDE2000 scoring tested against published reference pairs, license- and checksum-validated content packs, shareable challenges, and optional server-verified Redis rankings. v0.1.0, a live demo, 25 regression tests, CI, CodeQL, and full-history secret scanning are public.
 
-We would use API credits for public maintainer workflows, not game runtime: triaging new issues, summarizing and risk-classifying pull-request diffs, proposing regression tests for color math and seeded rounds, checking content-pack provenance notes for missing evidence, reviewing API-route changes against the threat model, and drafting release notes. A maintainer would review every output; automation would not merge code, publish releases, or make license decisions by itself.
+### How will you use API credits? — 441/500 characters
 
-### Anything else — 408/500 characters
+API credits would support the public maintainer queue: triaging issues; summarizing and risk-classifying PR diffs; proposing regression tests for color math, seeded rounds, and API validation; checking content-pack provenance for missing evidence; reviewing route changes against the threat model; and drafting release notes. Every output would require maintainer review. Automation would not merge PRs, publish releases, or decide licenses.
 
-The engine does not require OpenAI APIs to run. The initial release intentionally excludes copyrighted character assets, production credentials, private documents, and unsupported adoption claims. Asset checksums and sources are public, leaderboard scores are recomputed on the server, and persistence fails explicitly when Redis is unavailable. We will submit only evidence that can be linked or reproduced.
+### Anything else — 418/500 characters
+
+This is the first public release, so I am not claiming broad adoption, external contributors, or third-party deployments. I am applying as the primary maintainer and explaining the project's ecosystem value without substituting estimates for usage. The repository has a live demo, 25 regression tests, a threat model, public asset provenance, protected-main CI, CodeQL, secret scanning, and scoped contribution issues.
 
 ## 中文校对版
 
 ### 项目为何符合条件
 
-Color Memory Engine 是一个采用 MIT 许可证、可自托管的视觉颜色记忆游戏引擎。它提供确定性每日回合、经过公开参考色对测试的 CIEDE2000 评分、带许可证和校验值的内容包、可分享挑战，以及可选的服务端验分 Redis 排行榜。它让开发者可以在不绑定特定品牌、内容目录、数据库或托管服务的情况下搭建此类游戏。
+Color Memory Engine 是一个新近发布、采用 MIT 许可证的可自托管视觉颜色记忆游戏引擎。它的生态价值在于提供可复用且重视权利边界的参考实现：客户端与服务端一致的确定性回合、经过公开参考色对测试的 CIEDE2000 评分、带许可证和校验值校验的内容包、可分享挑战，以及可选的服务端验分 Redis 排行榜。v0.1.0、在线 demo、25 项回归测试、CI、CodeQL 和完整历史密钥扫描均已公开。
 
 ### API credits 用途
 
-API credits 只用于公开项目维护，不用于游戏运行：分类新 Issue、总结并标注 PR diff 风险、为颜色数学和确定性回合补充回归测试建议、检查内容包来源说明是否缺少证据、对照威胁模型审查 API route 变更、起草 Release Notes。所有输出都由维护者复核；自动化不会自行合并代码、发布版本或作出许可证判断。
+API credits 将用于公开维护队列：分类 Issue；总结 PR diff 并标注风险；为颜色数学、确定性回合和 API 校验提出回归测试；检查内容包来源是否缺少证据；对照威胁模型审查路由变更；起草 Release Notes。所有输出都必须经过维护者复核；自动化不会自行合并 PR、发布版本或作出许可证决定。
 
 ### 其他说明
 
-引擎运行不依赖 OpenAI API。首个版本明确排除了受版权保护的角色素材、生产密钥、私密文档和无法证实的采用数据。素材来源和校验值公开；排行榜由服务端重算分数；Redis 不可用时持久化功能明确失败。申请只使用可链接或可复现的证据。
+这是项目的首个公开版本，因此我不声称它已被广泛采用，也不声称已有外部贡献者或第三方部署。我以主要维护者身份申请，并用项目的具体生态价值说明资格，不用估算代替实际使用数据。仓库已公开在线 demo、25 项回归测试、威胁模型、素材来源、受保护的 main 分支 CI、CodeQL、密钥扫描和明确范围的贡献 Issue。
 
 ## Submission checklist
 
 - Reopen the official form and recheck fields and character limits.
 - Confirm the applicant's name, ChatGPT email, public GitHub username, repository URL, and Organization ID.
-- Recount each answer after replacing text; the counts above cover the displayed English answer text only.
+- Recount each answer after any edit; the counts above cover the displayed English answer text only.
 - Update the evidence log with public links and the exact fact-check date.
 - Confirm that requested API-credit workflows still match actual maintenance work.
 - Obtain the maintainer's final approval before entering personal data or submitting the form.
